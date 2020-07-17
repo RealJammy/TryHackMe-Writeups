@@ -55,7 +55,7 @@ Going back to pasta, I wanted to get a root shell. https://github.com/swisskyrep
 Using this to help, I ran `find / -uid 0 -perm -4000 -type f 2>/dev/null` to see some of those sweet sweet binaries.
 
 
-Some of the binaries seemed sus, so I ran some great shellcode from here: https://www.exploit-db.com/exploits/41154
+Some of the binaries seemed sus, so I ran a great script from here: https://www.exploit-db.com/exploits/41154
 
 ```sh
 #!/bin/bash
